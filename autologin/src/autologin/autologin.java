@@ -25,11 +25,11 @@ public class autologin {
 		//로그인폼 채우기
 		text_box_id=driver.findElement(By.cssSelector("input[name='user_id']"));
 		text_box_id.clear();
-		text_box_id.sendKeys("아이디");
+		text_box_id.sendKeys("");
 		//비밀번호
 		text_box_id=driver.findElement(By.cssSelector("input[name='passwd']"));
 		text_box_id.clear();
-		text_box_id.sendKeys("비밀번호");
+		text_box_id.sendKeys("");
 		Thread.sleep(500);//0.5초 쉬기;
 		
 		btn_login=driver.findElement(By.cssSelector("input[class='btn_login']"));
