@@ -22,7 +22,7 @@ public class LoginForm extends JFrame implements ActionListener{
 		l3= new JLabel("PassWord");
 		tf1 = new JTextField();
 		p1 = new JPasswordField();
-		btn1 =new JButton("Login");
+		btn1 =new JButton("Login"); // submit button
 		
 		l1.setBounds(100, 30, 400, 30);// x ,y width ,height 절대좌표값 
 		l2.setBounds(80, 70, 200, 30);
